@@ -322,7 +322,7 @@ Accuracy improved from 32 to 64 tokens but plateaued beyond 64, while training t
 | Frozen DistilBERT | 89.25% |
 | LoRA DistilBERT | 89.45% |
 
-DistilBERT achieved the highest overall accuracy, outperforming the BiLSTM by approximately **2 percentage points**, at the cost of significantly larger model size and longer training time. :contentReference[oaicite:12]{index=12}
+DistilBERT achieved the highest overall accuracy, outperforming the BiLSTM by approximately **2 percentage points**, at the cost of significantly larger model size and longer training time. 
 
 ---
 
@@ -334,7 +334,7 @@ Both models most frequently confused
 
 These articles often discuss technology companies, products, financial markets, or IPOs, making the semantic boundary inherently ambiguous.
 
-The Transformer produced fewer total misclassifications than the LSTM, suggesting stronger contextual understanding. :contentReference[oaicite:13]{index=13}
+The Transformer produced fewer total misclassifications than the LSTM, suggesting stronger contextual understanding. 
 
 ---
 
