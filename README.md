@@ -9,9 +9,8 @@ This project presents a comprehensive comparison between two fundamentally diffe
 
 Beyond comparing predictive performance, the project investigates how architectural design, tokenization strategy, transfer learning, parameter-efficient fine-tuning, and sequence length affect classification accuracy, computational efficiency, and training cost.
 
-Several additional experiments—including recurrent model ablations, frozen encoder training, LoRA fine-tuning, and sequence-length analysis—were conducted to better understand the strengths and limitations of modern NLP architectures.
+Several additional experiments, including recurrent model ablations, frozen encoder training, LoRA fine-tuning, and sequence-length analysis, were conducted to better understand the strengths and limitations of modern NLP architectures.
 
-This project was completed as part of **COMP 551 – Applied Machine Learning** at **McGill University**. 
 
 ---
 
