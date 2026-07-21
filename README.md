@@ -11,7 +11,7 @@ Beyond comparing predictive performance, the project investigates how architectu
 
 Several additional experiments—including recurrent model ablations, frozen encoder training, LoRA fine-tuning, and sequence-length analysis—were conducted to better understand the strengths and limitations of modern NLP architectures.
 
-This project was completed as part of **COMP 551 – Applied Machine Learning** at **McGill University**. :contentReference[oaicite:0]{index=0}
+This project was completed as part of **COMP 551 – Applied Machine Learning** at **McGill University**. 
 
 ---
 
@@ -24,7 +24,7 @@ The objective is to classify a news article into one of four categories:
 - Business
 - Sci/Tech
 
-Unlike traditional machine learning methods that rely on handcrafted features such as TF-IDF, this project investigates **end-to-end deep learning** approaches capable of learning semantic representations directly from raw text. :contentReference[oaicite:1]{index=1}
+Unlike traditional machine learning methods that rely on handcrafted features such as TF-IDF, this project investigates **end-to-end deep learning** approaches capable of learning semantic representations directly from raw text. 
 
 ---
 
@@ -45,7 +45,7 @@ A **90/10 train-validation split** was created from the official training set wh
 | World |
 | Sports |
 | Business |
-| Sci/Tech | :contentReference[oaicite:2]{index=2}
+| Sci/Tech | 
 
 ---
 
@@ -73,7 +73,7 @@ Vocabulary size:
 
 Maximum sequence length:
 
-**128 tokens** :contentReference[oaicite:3]{index=3}
+**128 tokens** 
 
 ---
 
@@ -129,7 +129,7 @@ Advantages:
 - Better sentence representation
 - Reduced sensitivity to sequence length
 - Stable gradients
-- Improved classification accuracy :contentReference[oaicite:4]{index=4}
+- Improved classification accuracy 
 
 ---
 
@@ -173,7 +173,7 @@ Linear Classifier
 Softmax
 ```
 
-Unlike recurrent models, Transformers process the entire sentence simultaneously using **self-attention**, enabling efficient modeling of long-range dependencies. :contentReference[oaicite:5]{index=5}
+Unlike recurrent models, Transformers process the entire sentence simultaneously using **self-attention**, enabling efficient modeling of long-range dependencies. 
 
 ---
 
@@ -216,7 +216,7 @@ Ty
 ##aurus
 ```
 
-Rare words are decomposed into meaningful subword units, allowing the model to generalize far better to unseen vocabulary. :contentReference[oaicite:6]{index=6}
+Rare words are decomposed into meaningful subword units, allowing the model to generalize far better to unseen vocabulary. 
 
 ---
 
@@ -246,7 +246,7 @@ Rare words are decomposed into meaningful subword units, allowing the model to g
 | Epochs | 3 |
 | Batch Size | 16 |
 | Gradient Clipping | 1.0 |
-| Parameters | 66.96M | :contentReference[oaicite:7]{index=7}
+| Parameters | 66.96M 
 
 ---
 
@@ -263,7 +263,7 @@ The following recurrent architectures were compared:
 - Unidirectional LSTM
 - Bidirectional GRU
 
-The BiLSTM with mean pooling consistently achieved the highest performance. :contentReference[oaicite:8]{index=8}
+The BiLSTM with mean pooling consistently achieved the highest performance. 
 
 ---
 
@@ -279,7 +279,7 @@ Purpose:
 
 Result:
 
-Accuracy decreased significantly, demonstrating the importance of updating pretrained representations during downstream fine-tuning. :contentReference[oaicite:9]{index=9}
+Accuracy decreased significantly, demonstrating the importance of updating pretrained representations during downstream fine-tuning. 
 
 ---
 
@@ -295,7 +295,7 @@ Benefits:
 - Faster optimization
 - Fewer trainable parameters
 
-Although computationally efficient, LoRA produced lower accuracy than full fine-tuning under the project constraints. :contentReference[oaicite:10]{index=10}
+Although computationally efficient, LoRA produced lower accuracy than full fine-tuning under the project constraints. 
 
 ---
 
@@ -309,7 +309,7 @@ Transformer models were evaluated using
 
 Observation:
 
-Accuracy improved from 32 to 64 tokens but plateaued beyond 64, while training time continued to increase substantially. :contentReference[oaicite:11]{index=11}
+Accuracy improved from 32 to 64 tokens but plateaued beyond 64, while training time continued to increase substantially. 
 
 ---
 
